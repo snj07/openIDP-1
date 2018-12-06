@@ -1,6 +1,6 @@
 FROM tomcat:9.0.5-jre8
 
-LABEL maintainer="idpadmin@infosys.com"\
+LABEL maintainer="mailid.domain.com"\
       owner="Infosys Ltd."
 
 EXPOSE 8085/tcp
