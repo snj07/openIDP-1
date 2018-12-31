@@ -270,7 +270,6 @@ class MavenBuild {
                     OSSIntegration.invokeTool(delegate, jsonData)
                 }
                 def modulesArr = jsonData.buildInfo.modules
-                def i = 0;
                 def username = jsonData.basicInfo.userName;
                 username = username + '@infosys.com'
                 //Checking for security analysis
