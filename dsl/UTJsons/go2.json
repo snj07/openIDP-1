@@ -25,7 +25,7 @@
         "type": "git",
         "url": "http://infygit.ad.infosys.com/ambica.mehrotra/GoApp.git",
         "userName": "ciplatform",
-        "password": "Infy1234+",
+        "password": "pwd1234+",
         "repositoryBrowser": "gitLab",
         "browserUrl": "http://infygit.ad.infosys.com/",
         "projectName": "",
@@ -89,7 +89,7 @@
         "unitTestDir": "math",
         "npmProxy": "http://10.74.91.103:80",
         "npmProxyUserName": "ciplatform",
-        "npmProxyPassword": "Infy1234+"
+        "npmProxyPassword": "pwd1234+"
       }
     ],
     "postBuildScript": {},

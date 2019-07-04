@@ -134,7 +134,7 @@ public class JobDetailsTest {
 			
 			Mockito.when(doc2.createElement(Matchers.any(String.class))).thenReturn(e);
 			
-			jobDetails.createJobDetails("http://blrkec411214d:8085", "ciplatform", "Infy1234+",
+			jobDetails.createJobDetails("http://blrkec411214d:8085", "ciplatform", "pwd1234+",
 					"CustomerPortal_Android_Gradle_App/CustomerPortal_Android_Gradle_App_Build", "D://", "time",
 					"CustomerPortal");
 			List<String> temp=null;
