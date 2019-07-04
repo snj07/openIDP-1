@@ -18,7 +18,7 @@ public class AppContext {
 		configurationManager.setPostgresqlinitialsize("5");
 		configurationManager.setUrl("jdbc:postgresql://localhost:5432/IDP");
 		configurationManager.setJenkinsurl("http://blrkec411214d:8085/jenkins");
-		configurationManager.setJenkinspassword("Infy1234+");
+		configurationManager.setJenkinspassword("pwd1234+");
 		configurationManager.setJenkinsuserid("ciplatform");
 		
 		

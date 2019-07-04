@@ -26,7 +26,7 @@ public class AppContext {
 		configurationManager.setBatchSize("1");
 		configurationManager.setUrl("jdbc:postgresql://idplinv03:5432/i2p");
 		configurationManager.setJenkinsID("ciplatform");
-		configurationManager.setJenkinsPassword("Infy1234+");
+		configurationManager.setJenkinsPassword("pwd1234+");
 		configurationManager.setJenkinsURL("https://idplinv03:8085/jenkins");
 		return configurationManager;
 	}

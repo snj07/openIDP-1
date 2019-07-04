@@ -23,11 +23,11 @@
     "scm": [
       {
         "type": "git",
-        "url": "http://infygit.ad.infosys.com/CIPlatform/JPetStore_Maven.git",
-        "userName": "ciplatform",
-        "password": "Infy1234+",
+        "url": "http://gitserver/JPetStore_Maven.git",
+        "userName": "uname",
+        "password": pwd",
         "repositoryBrowser": "gitLab",
-        "browserUrl": "http://infygit.ad.infosys.com/",
+        "browserUrl": "http://gitserver",
         "projectName": "",
         "branch": "master",
         "projPath": "",

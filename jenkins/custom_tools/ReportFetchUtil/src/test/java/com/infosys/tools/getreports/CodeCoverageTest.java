@@ -133,7 +133,7 @@ public class CodeCoverageTest {
 			
 			Mockito.when(doc2.createElement(Matchers.any(String.class))).thenReturn(e);
 			
-			codeCoverage.createcodeCoverage("http://blrkec411214d:8085", "ciplatform", "Infy1234+",
+			codeCoverage.createcodeCoverage("http://blrkec411214d:8085", "ciplatform", "pwd",
 					"CustomerPortal_Android_Gradle_App/CustomerPortal_Android_Gradle_App_Build", "D://", "time",
 					"CustomerPortal");
 			List<String> temp = null;

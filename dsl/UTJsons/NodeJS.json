@@ -33,7 +33,7 @@
         "type": "tfs",
         "url": "http://tfs2013-farm01.ad.infosys.com:8080/tfs/QTOOLS",
         "userName": "CIPlatform",
-        "password": "Infy1234+",
+        "password": "pwd1234+",
         "repositoryBrowser": "",
         "browserUrl": "",
         "projectName": "",
