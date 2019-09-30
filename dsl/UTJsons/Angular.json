@@ -22,7 +22,7 @@
       "applicationTeam": "",
       "emailIds": ""
     },
-    "userName": "ciplatform",
+    "userName": "idp_oss",
     "pipelineStatus": "edit"
   },
   "code": {
@@ -31,11 +31,11 @@
     "scm": [
       {
         "type": "git",
-        "url": "http://infygit.ad.infosys.com/ambica.mehrotra/AngularProject.git",
-        "userName": "ciplatform",
-        "password": "pwd1234+",
+        "url": "http://xyz.com/ambica.mehrotra/AngularProject.git",
+        "userName": "idp_oss",
+        "password": "idp_oss",
         "repositoryBrowser": "gitLab",
-        "browserUrl": "http://infygit.ad.infosys.com",
+        "browserUrl": "http://idp_oss.com",
         "projectName": "",
         "branch": "master",
         "projPath": "",
@@ -92,11 +92,11 @@
         "codeCoverageTool": [
           "off"
         ],
-        "npmProxy": "http://indblrb06intpxy01.ad.infosys.com:80",
+        "npmProxy": "http://xyz.com:80",
         "allUnitTestPass": "off",
         "noViolations": "off",
         "npmProxyUserName": "root",
-        "npmProxyPassword": "blrkec316711d"
+        "npmProxyPassword": "idp_oss"
       }
     ],
     "postBuildScript": {

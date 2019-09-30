@@ -20,7 +20,7 @@
     },
     "additionalMailRecipients": {
       "applicationTeam": "",
-      "emailIds": "hardik.rathod01@infosys.com"
+      "emailIds": "xyz.com"
     },
     "userName": "ciplatform",
     "pipelineStatus": "edit",
@@ -40,7 +40,7 @@
             "jiraProjectKey": "",
             "charmRequests": [],
             "userStoryString": "",
-            "userName": "ciplatform",
+            "userName": "idp_oss",
             "slaveName": "jpetslave",
             "testSlaveName": "",
             "envSelected": "",
@@ -50,7 +50,7 @@
             },
             "testSelected": "off",
             "artifactorySelected": "off",
-            "emailed": "ciplatform@infosys.com,kruti.vyas@infosys.com,hardik.rathod01@infosys.com",
+            "emailed": "idp_oss@xyz.com",
             "testStep": [],
             "technology": "J2EE/Maven",
             "repoDeployStatus": "",
@@ -74,11 +74,11 @@
     "scm": [
       {
         "type": "git",
-        "url": "http://infygit.ad.infosys.com/CIPlatform/JPetStore_Maven.git",
-        "userName": "saraswathi.t",
-        "password": "happy@2018",
+        "url": "http://xyz.com/idp_oss/JPetStore_Maven.git",
+        "userName": "idp_oss",
+        "password": "idp_oss",
         "repositoryBrowser": "gitLab",
-        "browserUrl": "http://infygit.ad.infosys.com/",
+        "browserUrl": "http://xyz.com/",
         "projectName": "",
         "branch": "master",
         "projPath": "",
@@ -125,7 +125,7 @@
     "artifactToStage": {
       "artifact": "**/*.*",
       "artifactRepo": {
-        "repoURL": "idpwinv05.ad.infosys.com:8081",
+        "repoURL": "xyz.com:8081",
         "repoName": "tg_hosted",
         "repoUsername": "admin",
         "repoPassword": "admin123"
@@ -146,7 +146,7 @@
         "install": "on",
         "MVNOPTS": "",
         "interval": "",
-        "sonarUrl": "http://infysonarqube:8080/",
+        "sonarUrl": "http://idp_oss:8080/",
         "sonarUserName": "",
         "sonarPassword": ""
       }
@@ -173,7 +173,7 @@
             },
             "deployToContainer": {
               "containerName": "tomcat",
-              "serverManagerURL": "http://vqtools122:7979",
+              "serverManagerURL": "http://idp_oss:7979",
               "resourceToBeDeployed": "manualTomcat",
               "warPath": "**/*.war",
               "contextPath": "/TCMTest",

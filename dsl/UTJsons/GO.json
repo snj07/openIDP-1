@@ -22,7 +22,7 @@
       "applicationTeam": "",
       "emailIds": ""
     },
-    "userName": "ciplatform",
+    "userName": "idp_oss",
     "pipelineStatus": "edit"
   },
   "code": {
@@ -31,11 +31,11 @@
     "scm": [
       {
         "type": "git",
-        "url": "http://infygit.ad.infosys.com/ambica.mehrotra/GoApp.git",
-        "userName": "ciplatform",
+        "url": "http://xyz.com/idp_oss/GoApp.git",
+        "userName": "idp_oss",
         "password": "pwd1234+",
         "repositoryBrowser": "gitLab",
-        "browserUrl": "http://infygit.ad.infosys.com/",
+        "browserUrl": "http://xyz.com/",
         "projectName": "",
         "branch": "master",
         "projPath": "",

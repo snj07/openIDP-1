@@ -22,7 +22,7 @@
       "applicationTeam": "",
       "emailIds": ""
     },
-    "userName": "ciplatform",
+    "userName": "idp_oss",
     "pipelineStatus": "edit"
   },
   "code": {
@@ -31,11 +31,11 @@
     "scm": [
       {
         "type": "git",
-        "url": "http://infygit.ad.infosys.com/CIPlatform/ReservationSystem_2013.git",
-        "userName": "ciplatform",
-        "password": "pwd1234+",
+        "url": "http://xyz.com/idp_oss/ReservationSystem_2013.git",
+        "userName": "idp_oss",
+        "password": "idp_oss",
         "repositoryBrowser": "gitLab",
-        "browserUrl": "http://infygit.ad.infosys.com",
+        "browserUrl": "http://xyz.com",
         "projectName": "",
         "branch": "master",
         "projPath": "",
@@ -76,7 +76,7 @@
     "artifactToStage": {
       "artifact": "**/*.dll",
       "artifactRepo": {
-        "repoURL": "idpwinv05:8081",
+        "repoURL": "idp_oss:8081",
         "repoName": "idp_Nexus",
         "repoUsername": "admin",
         "repoPassword": "admin123"
@@ -130,11 +130,11 @@
               "resourceToBeDeployed": "",
               "warPath": "",
               "contextPath": "ReservationSystem_2013/ReservationSystem",
-              "userName": "itlinfosys\\CIPlatform",
-              "password": "pwd1234+",
+              "userName": "idp_oss\\idp_oss",
+              "password": "idp_oss",
               "targetCellName": "",
               "targetNodeName": "",
-              "targetServerName": "vqtools122",
+              "targetServerName": "idp_oss",
               "hostName": "",
               "port": "",
               "updateDB": "",

@@ -96,8 +96,7 @@ public class CodeCoverageTest {
 		try {
 			SSLUtilities.trustAllHostnames();
 			SSLUtilities.trustAllHttpsCertificates();
-			// String href =
-			// "http://blrkec411214d:8085/jenkins/job/CustomerPortal_Android_Gradle_App/job/CustomerPortal_Android_Gradle_App_Build/lastBuild/api/xml";
+			
 			String href = "http://google.com";
 
 			URLConnection urlConnection = mock(URLConnection.class);
@@ -133,7 +132,7 @@ public class CodeCoverageTest {
 			
 			Mockito.when(doc2.createElement(Matchers.any(String.class))).thenReturn(e);
 			
-			codeCoverage.createcodeCoverage("http://blrkec411214d:8085", "ciplatform", "pwd",
+			codeCoverage.createcodeCoverage("http://idp_oss:8085", "idp_oss", "pwd",
 					"CustomerPortal_Android_Gradle_App/CustomerPortal_Android_Gradle_App_Build", "D://", "time",
 					"CustomerPortal");
 			List<String> temp = null;
