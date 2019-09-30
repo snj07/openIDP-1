@@ -14,7 +14,7 @@
 			"applicationTeam": "",
 			"emailIds": ""
 		},
-		"userName": "ciplatform",
+		"userName": "idp_oss",
 		"pipelineStatus": "edit"
 	},
 	"code": {
@@ -23,8 +23,8 @@
 		"scm": [
 			{
 				"type": "git",
-				"url": "http://infygit.ad.infosys.com/angelin.mariya/MFED_CLI.git",
-				"userName": "Ciplatform",
+				"url": "http://xyz.com/idp_oss/MFED_CLI.git",
+				"userName": "idp_oss",
 				"password": "pwd",
 				"repositoryBrowser": "gitHub",
 				"browserUrl": "",
